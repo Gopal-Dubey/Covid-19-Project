@@ -34,11 +34,11 @@ let promiseObj = get('https://api.covid19api.com/summary');
                 mainBody.appendChild(h1Temp);
                 mainBody.appendChild(pTemp);
           
-            //for searching
+            //to search
             const list = document.querySelector('body ul')
             const search = document.forms['update'].querySelector('input')
             search.addEventListener('keyup', function(e)
-{     //converting the value to lower case for more convinience
+{     
                 {
         const term= e.target.value.toLowerCase()
         if(item.Country.toLowerCase().indexOf(term) != -1 || item.CountryCode.indexOf(term) !=-1){
@@ -52,7 +52,7 @@ let promiseObj = get('https://api.covid19api.com/summary');
            
         }  
               
-        //m is the value used in function
+        
     
     }
 });
