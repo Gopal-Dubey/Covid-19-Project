@@ -1,0 +1,30 @@
+body {
+    
+     background: linear-gradient(60deg, rgb(195, 219, 228) 100%, lightgray 0%);
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    }
+    .row {
+      display: flex;
+    }
+   
+    /* Create three equal columns that sits next to each other */
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+    .name
+    {
+      border-bottom: 1px solid #bc13da;
+      box-shadow: 0 1px 0 0 #490655;
+    }
+    .marquee
+    {
+      color: orangered;
+    }
+    :hover a
+    {
+      color:orangered;
+      
+    }
