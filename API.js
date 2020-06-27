@@ -56,5 +56,5 @@ let promiseObj = get('https://api.covid19api.com/summary');
     
     }
 });
-            });
-        });
+});
+});
